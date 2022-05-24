@@ -1,0 +1,28 @@
+mvn archetype:generate
+              		project num 1908
+	choose version 8
+	group id (com.whatsup) 
+	artfactid--webappwhatsup
+	enter+enter+Y
+ 	BUILD SUCCESS
+
+Goto location project .i.e, we see SRC folder and POM.XMl file
+
+ SRC --- FINAL SOURCE CODE OF PROJECT
+ POM --- STORES API'S INFO
+ 
+Nxt step 
+	
+	open webappwhatsapp folder
+	open gitbash
+	git init - git add . -- git commit -m "first commit"
+
++++++++++
+copy dependency and paste in pom.xml file
+
+	goto command prompt 
+			cd webappwhatsapp
+					mvn compile 
++++ got to gitbash ---git status -- git add. -- git commit -m " 2 commiyt "
+
+FINAL STEP TO CREATE PACKAGE AND GENERATE ARTIFACT -------mvn package  
