@@ -25,4 +25,8 @@ copy dependency and paste in pom.xml file
 					mvn compile 
 +++ got to gitbash ---git status -- git add. -- git commit -m " 2 commiyt "
 
-FINAL STEP TO CREATE PACKAGE AND GENERATE ARTIFACT -------mvn package  
+FINAL STEP TO CREATE PACKAGE AND GENERATE ARTIFACT -------mvn package
+   
+
+ALL THE RESULTS ARE AVALIABLE IN TARGET FOLDER
+  
